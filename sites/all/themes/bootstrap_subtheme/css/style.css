@@ -1,0 +1,37 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+body h1,h2,h3,h4,h5,h6,span,a {
+	margin:0px;
+	padding:0px;
+}
+.navbar-default {
+	margin-top: -20px;
+	background-color: transparent;
+}
+.container {
+	width: 75%;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	color: red;
+	background-color: white;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: red;
+	background-image:url(../Arrow.png);
+	background-repeat: no-repeat;
+	background-position: 30px 4px;
+}
+div#views_slideshow_cycle_teaser_section_imageslider-block {
+	margin-left: -175px;
+}
+table {
+	max-width: 100%;
+	background-color: transparent;
+	width: 960px;
+}
+.navbar-static-top {
+	z-index: 1000;
+	border-width: 0 0;
+}
